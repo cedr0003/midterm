@@ -1,0 +1,70 @@
+body {
+    background-color: #aad4cf;
+  }
+  /*header section*/
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header {
+    background-image: url("../midterm-assets/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    width: 80%;
+  }
+  /*nav section*/
+  .navigations {
+    text-align: center;
+  }
+  .nav-links {
+    list-style-type: none;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .nav-links li
+   { border-right: 2px solid white ;
+    display: inline-block;
+    margin-right: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    
+    text-align: center;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+    border-right: 0px;
+  }
+  .star-fish {
+    width: 200px;
+    float: left;
+    margin-right:10px;
+    
+  }
+  .form {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  #text,
+  #password,
+  #massage {
+    width: 100%;
+  }
+  .footer {
+    text-align: right;
+  }
